@@ -1,0 +1,34 @@
+.navbar {
+    background-color: var(--navbar-bg-color);
+  }
+  
+  .nav-link, .navbar-brand {
+    color: var(--navbar-text-color) !important;
+  }
+  
+  .nav-link:hover, .navbar-brand:hover {
+    color: #d3d3d3 !important; /* light gray for hover effect */
+  }
+  
+  .form-inline .form-control {
+    width: 200px;
+  }
+  
+  .form-inline .btn-outline-success {
+    color: var(--navbar-text-color);
+    border-color: var(--navbar-text-color);
+  }
+  
+  .form-inline .btn-outline-success:hover {
+    color: #d3d3d3;
+    border-color: #d3d3d3;
+  }
+  
+  .btn-dark-mode-toggle {
+    background: none;
+    border: none;
+    color: var(--navbar-text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
